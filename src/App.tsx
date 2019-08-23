@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import UserGrid from './components/UserGrid'
+import UserGrid from './components/UserGrid';
 
 const App: React.FC = () => {
   return (
