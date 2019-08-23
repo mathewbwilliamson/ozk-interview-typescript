@@ -6,6 +6,8 @@ interface SingleUserProps {
 
 const SingleUser = ({singleUser}: SingleUserProps) => {
     const {location} = singleUser
+    console.log('[matt][tealium] location', location)
+    
 
     return (
         <div className="User_wrapper">
