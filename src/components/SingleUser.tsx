@@ -1,7 +1,22 @@
 import React from 'react';
 
 interface SingleUserProps {
-    singleUser: any
+    singleUser: {
+        location: {
+            street: string,
+            city: string,
+            state: string,
+            postcode: string
+        },
+        name: {
+            first: string,
+            last: string
+        },
+        picture: {
+            large: string,
+            alt: string
+        }
+    }
 }
 
 const SingleUser = ({singleUser}: SingleUserProps) => {
